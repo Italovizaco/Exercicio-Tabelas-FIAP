@@ -1,5 +1,6 @@
-body{
-    background-image: url(../image/astronauta\ fundo.jpeg);
+body {
+    background-image: linear-gradient( to right, rgba(196, 194, 194, 0), rgba(0, 0, 0, 0.521)),
+     url(../image/astronauta\ fundo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,39 +10,50 @@ body{
     font-size: small;
 }
 
-.container{
-    background-color: rgb(187, 184, 184);
+.container {
+    background-color: transparent;
+    box-shadow: 5px 1px 15px 1px rgb(105, 219, 79);
     width: 400px;
     height: 600px;
-    border: 1px solid rgb(0, 0, 0);
     margin-left: 50%;
-    flex-direction: column; 
+    flex-direction: column;
     border-radius: 5%;
-    margin-top: 15px;
+    margin-top: 150px;
     padding: 10px;
+    font-weight: 1000;
+    text-shadow: 0 0 0.2em rgb(67, 218, 67);
 }
 
-.box{
+.box {
     margin: 10px 15px;
 }
 
-h2{
-    color: rgba(0, 0, 255, 0.829);
-    font-weight: 500;
+h2 {
+    color: rgb(74, 187, 70);
+    font-weight: 800;
+    text-shadow: 0 0 0.8em rgb(0, 0, 0);
 }
 
-textarea{
+textarea {
     width: 350px;
     height: 150px;
     resize: none;
     border-radius: 5%;
 }
 
-.button{
-    margin: 50px;
-    margin-top: 5px;
-    cursor: pointer;
+
+.btn {
+    background-color: rgb(201, 198, 198);
+    border-radius: 5%;
+    border: 1px solid rgb(9, 255, 0);
+    transition: .7s;
     float: right;
-    
+    margin:auto 30px;
+    width: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
+.btn:hover {
+    background-color: transparent;
+}
