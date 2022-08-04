@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- chamada do Google fints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+    <title>&#128125 Astro-Galaxy &#128640</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>&#128640 Viaje para Marte - Cadastre-se</h2>
+
+        <div class="box">
+            <legend>Seu Nome</legend>
+            <input type="text" id="usuario" name="usuario" placeholder="Ex: Fulano de Tal" minlength="10" maxlength="20"
+                required>
+        </div>
+
+        <div class="box">
+            <legend>Usuário</legend>
+            <input type="text" id="usuario" name="usuario" placeholder="Ex: Astronaut" minlength="10" maxlength="20"
+                required>
+        </div>
+
+        <div class="box">
+            <legend>Senha</legend>
+            <input type="password" id="senha" name="senha" placeholder="Ex: 123456" minlength="10" maxlength="20"
+                required>
+        </div>
+
+
+        <div class="box">
+            <legend for="email">Email:</legend>
+            <input type="email" id="email" name="email" placeholder="Ex: seuemail@email.com" required>
+        </div>
+
+
+        <div class="box">
+            <legend for="email">Data de nascimento:</legend>
+            <input type="date" id="viagem" name="viagem">
+        </div>
+
+
+        <div class="box">
+            <legend for="formacao">Área de atuação:</legend>
+            <select name="formacao" id="formacao">
+                <option value="0" disabled selected>Digite ou selecione uma opção:</option>
+                <option value="1">Transporte Aéreo de Cargas</option>
+                <option value="2">Aviação Interestrelar</option>
+                <option value="3">Táxi Aéreo Lunar</option>
+                <option value="4">Rebocador de Foguetes</option>
+                <option value="5">Meteorologia Planetária</option>
+            </select>
+        </div>
+
+        <div class="box">
+            <legend for="mensagem">Conte para nos quem é voce:</legend>
+            <textarea name="mensagem" id="mensagem"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Enviar dados</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

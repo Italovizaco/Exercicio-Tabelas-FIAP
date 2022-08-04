@@ -1,0 +1,47 @@
+body{
+    background-image: url(../image/astronauta\ fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: 50%;
+    background-attachment: fixed;
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+}
+
+.container{
+    background-color: rgb(187, 184, 184);
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 50%;
+    flex-direction: column; 
+    border-radius: 5%;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.box{
+    margin: 10px 15px;
+}
+
+h2{
+    color: rgba(0, 0, 255, 0.829);
+    font-weight: 500;
+}
+
+textarea{
+    width: 350px;
+    height: 150px;
+    resize: none;
+    border-radius: 5%;
+}
+
+.button{
+    margin: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    float: right;
+    
+}
+
